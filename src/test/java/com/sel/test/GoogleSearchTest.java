@@ -11,6 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -49,6 +50,8 @@ public class GoogleSearchTest {
         //sutomation code
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
+        driver.findElement(By.name("q"));
+        
         
     }
 }
