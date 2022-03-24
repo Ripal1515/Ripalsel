@@ -20,23 +20,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
  *
  * @author srmhome
  */
-public class Login {
-
-    public Login() {
+public class LoginTest {
+    
+    public LoginTest() {
     }
-
+    
     @BeforeAll
     public static void setUpClass() {
     }
-
+    
     @AfterAll
     public static void tearDownClass() {
     }
-
+    
     @BeforeEach
     public void setUp() {
     }
-
+    
     @AfterEach
     public void tearDown() {
     }
@@ -65,3 +65,4 @@ public class Login {
     }
 
 }
+
